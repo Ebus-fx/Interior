@@ -1,76 +1,111 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #f5f2ee;
 }
-.sticky-top{
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sticky-top {
     height: 90px;
-    width: 90.5%;
+    width: 95%;
     margin: auto;
     background-color: #f5f2ee;
 }
-.inside-sticky{
+
+.inside-sticky {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: space-between;
 }
-.text-bold{
+
+.aaa {
+    color: black;
+    text-decoration: none;
+}
+
+.aaa:hover {
+    color: black;
+    text-decoration: dashed;
+}
+
+.text-bold {
     font-size: 35px;
+    font-family: "Playfair Display", serif;
     width: 10%;
     display: flex;
     flex-direction: column;
     line-height: 30px;
     text-align: center;
 }
-.text-bold span{
+
+.text-bold span {
     font-size: 15px;
 }
-.fa-solid{
+
+.fa-solid {
     color: black;
     font-size: 30px;
     text-decoration: none;
 }
-.slide{
+
+.slide {
     height: 550px;
-    width: 95%;
+    width: 97.4%;
     margin: auto;
 }
-img{
+
+img {
     height: 100%;
     width: 100%;
 }
-.carousel-item{
+
+.carousel-item {
     height: 100%;
     width: 100%;
 }
-.carousel-inner{
+
+.carousel-inner {
     height: 100%;
     width: 100%;
 }
-.text-second{
+
+.text-second {
     height: 200px;
-    width: 90%;
+    width: 95%;
     margin: auto;
     border-bottom: 1px #8e8e8e solid;
 }
-.text-bold2{
-    font-size: 50px;
 
+.text-bold2 {
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
 }
-.text-low{
+
+.text-low {
     margin-top: -20px;
 }
-.low2{
+
+.low2 {
     margin-top: 15px;
 }
 
-.second-one{
+.second-one {
     height: 750px;
-    width: 90%;
+    width: 95%;
     margin: auto;
     display: flex;
     gap: 50px;
@@ -78,23 +113,297 @@ img{
     justify-content: center;
     border-bottom: 1px #8e8e8e solid;
 }
-.photo1{
+
+.photo1 {
     height: 80%;
     width: 50%;
     padding-right: 50px;
     border-right: 1px #8e8e8e solid;
 }
-.ppp{
+
+.ppp {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     border: none;
 }
-.text-bold11{
+
+.text-bold11 {
     font-size: 30px;
+    font-family: "Playfair Display", serif;
 }
-.reduce{
+
+.reduce {
     width: 56.5%;
     text-align: center;
 }
+
+.bord {
+    border-right: 1px #8e8e8e solid;
+    padding-right: 50px;
+}
+
+.none {
+    border: none;
+}
+
+.button {
+    background-color: #f5f2ee;
+    color: black;
+    height: 40px;
+    width: 200px;
+    border-radius: 1px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: burlywood;
+    color: white;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loop {
+    height: 200px;
+    width: 90%;
+    margin: auto;
+}
+
+.nnn {
+    height: 400px;
+    padding-bottom: 50px;
+}
+
+.nn {
+    border-right: none;
+    border-left: 1px #8e8e8e solid;
+    padding-left: 50px;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 70%;
+    align-items: flex-start;
+
+}
+
+.almost {
+    border-bottom: 1px #8e8e8e solid;
+}
+
+.text3 {
+    flex-direction: column;
+    height: 90%;
+    width: 50%;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.text-almost {
+    height: 50%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.wide {
+    width: 92%;
+    text-align: left;
+    height: 60%;
+    font-size: 30px;
+
+}
+
+.low3 {
+    margin-top: 0;
+    width: 92%;
+    text-align: left;
+}
+
+.norm {
+    width: 100%;
+}
+
+.btn {
+    background-color: transparent;
+    color: black;
+    height: 40px;
+    border-color: black;
+    width: 150px;
+    border-radius: 1px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.btn:hover {
+    background-color: burlywood;
+    color: white;
+}
+
+.legit {
+    height: 30%;
+    width: 80%;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+
+}
+
+.pics {
+    height: 90%;
+    width: 50%;
+    border: none;
+}
+
+.xxx {
+    display: flex;
+    width: 100%;
+}
+.kk{
+     font-family: "Playfair Display", serif;
+}
+.bb{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.mm{
+    border: none;
+    height: 21px;
+    width: auto;
+}
+.text4{
+   
+    height: 70%;
+    width: 50%;
+    justify-content: space-between;
+    padding-left: 35px;
+}
+.btn1 {
+    background-color: transparent;
+    color: black;
+    height: 40px;
+    border-color: black;
+    width: 200px;
+    border-radius: 1px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.btn1:hover {
+    background-color: burlywood;
+    color: white;
+}
+
+.text-almost1{
+height: 50%;
+width: 200%;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+line-height: 30px;
+margin-bottom: 150px;
+}
+.wide1{
+    width: 92%;
+    text-align: left;
+    height: 10%;
+    font-size: 20px;
+}
+.legit1 {
+    height: 30%;
+    width: 80%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.back{
+    background-image: url("../img/long.webp");
+    background-repeat: no-repeat;
+    height: 900px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.small{
+    height: 200px;
+    margin-top: 30px;
+    width: 95%;
+    margin: auto;
+}
+.fa-solid{
+    font-size: 15px;
+    display: flex;
+}
+.no{
+    border: none;
+    height: 320px;
+}
+.tori{
+    height: 320px;
+    width: 95%;
+    margin: auto;
+    gap: 10px;
+    border-bottom: 1px #8e8e8e solid;
+}
+.some{
+    width: 30%;
+    height: 97%;
+    flex-direction: column;
+}
+a{
+    color: black;
+}
+.text-boldd{
+    width: 50%;
+    text-align: center;
+}
+.omo{
+    margin-top: 30px;
+}
+.rrr{
+    font-size: 30px;
+    margin-top: 100px;
+    line-height: 20px;
+    font-family: "Playfair Display", serif;
+}
+.some2{
+    line-height: 10px;
+    margin-top: 70px;
+
+}
+.some3{
+    line-height: 15px;
+    align-items: flex-start;
+    margin-top: 70px;
+}
+.some4{
+    line-height: 20px;
+    align-items: flex-start;
+    margin-top: 70px;
+    
+}
+.hover-link{
+    display: flex;
+    margin-top: 30px;
+    letter-spacing: 15px;
+}
+.end{
+    height: 80px;
+    width: 95%;
+    margin: auto;
+    margin-top: 15px;
+}
+
